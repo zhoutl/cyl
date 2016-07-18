@@ -1,0 +1,40 @@
+.top{ padding:26px 0; color:#666;}
+.login_bg{ height: 500px; background: url(../images/login/login_02.jpg) center no-repeat;}
+.Login{ padding:60px 0;}
+.loginForm{ width:430px; padding:44px 37px; float:right; text-align:left; background:#FFF; box-shadow: 0 1px 3px rgba(0,0,0,0.3);}
+.registerForm h3,.loginForm h3{ color: #ff1414; font-size:20px; margin-top:0; border-bottom: 1px solid #eeeeee; padding-bottom: 10px; margin-bottom: 20px;}
+.lo_text{ border-radius:0; box-shadow:none; height:50px; line-height: 36px; color:#666; border-color: #dcdcdc;}
+.lo_text2{ border-radius:0; box-shadow:none; height:50px; color:#666;}
+.form-control::-webkit-input-placeholder{ color:#666;}
+.form-control::-moz-placeholder{ color:#666;}
+.xy{ font-size:14px; color:#666; line-height:16px; font-weight:500; margin-bottom:0;}
+.xy .blue{ color:#2294dc; text-decoration:underline;}
+#LFSubmit{ width:54%; padding:10px 0;}
+#LFSubmit2{ width:100%; padding:11px 0;}
+.btn-blue{color: #fff;background-color:#ff1414; border-radius:0; opacity:1;}
+.btn-blue:hover{ color:#FFF; opacity:0.8;}
+.vcode_btn{ display:inline-block; padding-left:12px; color:#858585;}
+.bg_fff{ background: #FFF;}
+.registerForm{  width:400px; padding:44px 0; margin-left: 37px; float:left; text-align:left;}
+.regkk1{ width:70%; float: left; border:0; margin-bottom: 5px; color: #333;}
+.regkk2{ width:42%;}
+.registerForm label{ color: #666; font-weight: 500;}
+.regyzm{ float: right; /*position: absolute; top:10px; right:10px;*/}
+.regtop{ width:100%; float: left; border-bottom: 1px solid #eeeeee; padding:15px 37px;}
+.regpic{ padding:44px 37px 0 0;}
+.regphone{ padding:4px 20px; background: #f2f2f2; color: #333; position: absolute; top:3px; right:3px; border:0;}
+.password1{ width:70%; height: 90px; float: left; margin-left: 23%; margin-top:55px; display: inline;}
+.password1 ul li{ width:25%; float: left; position: relative; color: #999;}
+.password1-first{ width:42px; height: 42px; line-height: 42px; border-radius: 50%; background: #f9f7f8; font-size: 24px; color: #b2b2b2; text-align: center; display: inline-block;}
+.current1{ background: #4190ff; color: #FFF;}
+.password1-line{ width:100%; height: 3px; float: left; background: #f8f7f7; margin-top:19px;}
+.password1-line2{ background: #4190ff;}
+.pasxz{ position: absolute; top:0; left:-15px;}
+.gth,.cg{ width:17px; height: 17px;background-size: 17px auto; background-image: url(../images/login/gth.png); background-repeat: no-repeat;display: inline-block;vertical-align: middle;}
+.passml{ margin-left: 32%;}
+.cg{ width:34px; height: 34px; background-size: 34px auto; background-image: url(../images/login/cg.png);}
+.pass-mine a{ padding:10px 20px; border:1px solid #e5e5e5; background: #FFF; color: #666; display: inline-block;}
+.pass-start a{ padding:10px 20px; border:1px solid #ff1414; background: #ff1414; color: #FFF; display: inline-block;}
+.registr_protocol {margin: 18px;margin-right: 10px;padding-right: 15px;height: 420px;overflow-y: scroll;}
+h1.prC_title {font-weight: 500;font-size: 22px;padding: 15px;text-align: center;}
+.prC_post h3 {font-size: 18px;font-weight: 500;margin-bottom: 10px;}
