@@ -1,0 +1,883 @@
+[ 2016-07-19T09:39:20+08:00 ] ::1 /cyl/Admin/Welcome/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ check_permission ] --START--
+SQL: SHOW COLUMNS FROM `md_admin_user` [ RunTime:0.0305s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0298s ]
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.193027s ]
+INFO: [ check_permission ] --END-- [ RunTime:0.193215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0299s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.039610s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.051884s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004821s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005776s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005577s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001657s ]
+
+[ 2016-07-19T09:40:37+08:00 ] ::1 /cyl/Admin/System/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ check_permission ] --START--
+SQL: SHOW COLUMNS FROM `md_admin_user` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0243s ]
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.159285s ]
+INFO: [ check_permission ] --END-- [ RunTime:0.159554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.035709s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001548s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0258s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.079123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021660s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.030091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.050501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.100861s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004290s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.053173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.056070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004911s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.053173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.056645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001516s ]
+
+[ 2016-07-19T09:40:37+08:00 ] ::1 /cyl/Admin/AdminUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001824s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ check_permission ] --START--
+SQL: SHOW COLUMNS FROM `md_admin_user` [ RunTime:0.0303s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0341s ]
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.199412s ]
+INFO: [ check_permission ] --END-- [ RunTime:0.199700s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0296s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.039180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001222s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.094606s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007849s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.043571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.050453s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.101410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003877s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.052664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.055497s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004481s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.052664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.056107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001626s ]
+
+[ 2016-07-19T09:43:17+08:00 ] ::1 /cyl/Admin/System/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ check_permission ] --START--
+SQL: SHOW COLUMNS FROM `md_admin_user` [ RunTime:0.0284s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0258s ]
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.167920s ]
+INFO: [ check_permission ] --END-- [ RunTime:0.168098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0263s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.035275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0256s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.072180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005357s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.028792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.033479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.079377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003910s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.036173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.039261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004505s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.036173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.039837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2016-07-19T09:43:19+08:00 ] ::1 /cyl/Admin/System/systemConfig.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ check_permission ] --START--
+SQL: SHOW COLUMNS FROM `md_admin_user` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0301s ]
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.201816s ]
+INFO: [ check_permission ] --END-- [ RunTime:0.202157s ]
+SQL: SHOW COLUMNS FROM `md_system_config` [ RunTime:0.0379s ]
+SQL: SELECT * FROM `md_system_config` WHERE ( system_config_id=1 ) LIMIT 1   [ RunTime:0.0301s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.052523s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001290s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.095816s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005968s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.033565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.038510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.102418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004436s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.040978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.044522s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005579s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.040978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.045488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2016-07-19T09:43:20+08:00 ] ::1 /cyl/Admin/Account/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ check_permission ] --START--
+SQL: SHOW COLUMNS FROM `md_admin_user` [ RunTime:0.0302s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0299s ]
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.193956s ]
+INFO: [ check_permission ] --END-- [ RunTime:0.194223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000718s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.042135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001643s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.090027s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008412s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.033519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.040672s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.099944s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006198s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.043922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.048810s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007308s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.043922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.049895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001701s ]
+
+[ 2016-07-19T09:43:24+08:00 ] ::1 /cyl/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ check_permission ] --START--
+SQL: SHOW COLUMNS FROM `md_admin_user` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0307s ]
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.201721s ]
+INFO: [ check_permission ] --END-- [ RunTime:0.201986s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000498s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0296s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.040949s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001073s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0296s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.083353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007972s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.032390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.039482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.091942s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003893s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.041510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.044498s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004475s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.041510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.045071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002563s ]
+
+[ 2016-07-19T09:43:27+08:00 ] ::1 /cyl/Admin/AdminUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ check_permission ] --START--
+SQL: SHOW COLUMNS FROM `md_admin_user` [ RunTime:0.0295s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0256s ]
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.170239s ]
+INFO: [ check_permission ] --END-- [ RunTime:0.170556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.036321s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001717s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0249s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.081704s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009405s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.029621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.037684s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.092431s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007547s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.041136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.047377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008654s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.041136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.048435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001674s ]
+
+[ 2016-07-19T09:43:28+08:00 ] ::1 /cyl/Admin/System/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ check_permission ] --START--
+SQL: SHOW COLUMNS FROM `md_admin_user` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0313s ]
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.210121s ]
+INFO: [ check_permission ] --END-- [ RunTime:0.210475s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000547s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0319s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.045688s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001578s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.099407s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010691s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.039258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.048760s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.112238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007551s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.052063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.058404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009017s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.052063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.059823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002400s ]
+
+[ 2016-07-19T09:43:32+08:00 ] ::1 /cyl/Admin/System/systemConfig.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ check_permission ] --START--
+SQL: SHOW COLUMNS FROM `md_admin_user` [ RunTime:0.0305s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0464s ]
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.214603s ]
+INFO: [ check_permission ] --END-- [ RunTime:0.214791s ]
+SQL: SHOW COLUMNS FROM `md_system_config` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `md_system_config` WHERE ( system_config_id=1 ) LIMIT 1   [ RunTime:0.0349s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0317s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.040278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001017s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.082140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005531s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.033392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.038071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.088767s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003963s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.040201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.043323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004538s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.040201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.043865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2016-07-19T09:43:34+08:00 ] ::1 /cyl/Admin/System/linkList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ check_permission ] --START--
+SQL: SHOW COLUMNS FROM `md_admin_user` [ RunTime:0.0308s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0299s ]
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.197007s ]
+INFO: [ check_permission ] --END-- [ RunTime:0.197438s ]
+SQL: SHOW COLUMNS FROM `md_link` [ RunTime:0.0304s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\cyl\Application\Admin\Controller\SystemController.class.php 第 30 行.
+SQL: SELECT * FROM `md_link` ORDER BY orderno ASC LIMIT 0,10   [ RunTime:0.0303s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `md_link` LIMIT 1   [ RunTime:0.0302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.039745s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001348s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0298s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.082047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005938s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.033023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.037849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.090227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003503s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.041941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.044279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004194s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.041941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.045195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2016-07-19T09:43:36+08:00 ] ::1 /cyl/Admin/System/systemConfig.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ check_permission ] --START--
+SQL: SHOW COLUMNS FROM `md_admin_user` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0261s ]
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.164234s ]
+INFO: [ check_permission ] --END-- [ RunTime:0.164457s ]
+SQL: SHOW COLUMNS FROM `md_system_config` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `md_system_config` WHERE ( system_config_id=1 ) LIMIT 1   [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.033698s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001152s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.072257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005647s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.028530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.033257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.082161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007212s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.036997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.043503s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008368s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.036997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.044640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001888s ]
+
+[ 2016-07-19T09:43:37+08:00 ] ::1 /cyl/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ check_permission ] --START--
+SQL: SHOW COLUMNS FROM `md_admin_user` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0245s ]
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.163993s ]
+INFO: [ check_permission ] --END-- [ RunTime:0.164335s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000774s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.036855s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001410s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.078859s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005834s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.028421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.033093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.087669s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005420s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.036185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.040360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006045s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.036185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.040957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2016-07-19T09:43:40+08:00 ] ::1 /cyl/Admin/Article/articleList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ check_permission ] --START--
+SQL: SHOW COLUMNS FROM `md_admin_user` [ RunTime:0.0259s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0254s ]
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.174354s ]
+INFO: [ check_permission ] --END-- [ RunTime:0.174713s ]
+SQL: SHOW COLUMNS FROM `md_article` [ RunTime:0.0253s ]
+NOTIC: [8] Undefined index: p E:\wamp\www\cyl\Application\Admin\Controller\ArticleController.class.php 第 99 行.
+SQL: SELECT * FROM `md_article` ORDER BY orderno ASC LIMIT 0,10   [ RunTime:0.0507s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `md_article` LIMIT 1   [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000592s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.057176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001900s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.104872s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008495s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.029521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.036460s ]
+SQL: SHOW COLUMNS FROM `md_article_category` [ RunTime:0.0252s ]
+SQL: SELECT `article_category_name` FROM `md_article_category` WHERE ( article_category_id=37 ) LIMIT 1   [ RunTime:0.0247s ]
+SQL: SELECT `article_category_name` FROM `md_article_category` WHERE ( article_category_id=36 ) LIMIT 1   [ RunTime:0.0252s ]
+SQL: SELECT `article_category_name` FROM `md_article_category` WHERE ( article_category_id=41 ) LIMIT 1   [ RunTime:0.0251s ]
+SQL: SELECT `article_category_name` FROM `md_article_category` WHERE ( article_category_id=36 ) LIMIT 1   [ RunTime:0.0246s ]
+SQL: SELECT `article_category_name` FROM `md_article_category` WHERE ( article_category_id=38 ) LIMIT 1   [ RunTime:0.0249s ]
+SQL: SELECT `article_category_name` FROM `md_article_category` WHERE ( article_category_id=41 ) LIMIT 1   [ RunTime:0.0252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.309266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006704s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.233825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.239007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007905s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.233825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.240132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001881s ]
+
+[ 2016-07-19T09:43:42+08:00 ] ::1 /cyl/Admin/Article/addArticle/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ check_permission ] --START--
+SQL: SHOW COLUMNS FROM `md_admin_user` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0264s ]
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.165710s ]
+INFO: [ check_permission ] --END-- [ RunTime:0.165955s ]
+SQL: SHOW COLUMNS FROM `md_article_category` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `md_article_category` WHERE ( article_type='1' )  [ RunTime:0.0269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0247s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.034563s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001051s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.071529s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006058s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.028514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.034054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.080880s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003979s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.037947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.041174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004638s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.037947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.041770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001573s ]
+
+[ 2016-07-19T09:43:52+08:00 ] ::1 /cyl/Admin/Welcome/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ check_permission ] --START--
+SQL: SHOW COLUMNS FROM `md_admin_user` [ RunTime:0.0307s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0300s ]
+INFO: Run Admin\Behavior\CheckPermissionBehavior [ RunTime:0.197650s ]
+INFO: [ check_permission ] --END-- [ RunTime:0.197976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+SQL: SELECT * FROM `md_admin_user` WHERE `admin_user_id` = 3 LIMIT 1   [ RunTime:0.0298s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.037154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001206s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.047828s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003748s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004602s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004410s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+

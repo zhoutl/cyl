@@ -1,0 +1,1304 @@
+[ 2016-07-19T11:04:23+08:00 ] ::1 /cyl/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+
+[ 2016-07-19T11:06:29+08:00 ] ::1 /cyl/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 1146:Table 'cheyouli.md_coupon' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_coupon`
+ERR: 1146:Table 'cheyouli.md_coupon' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `md_coupon`
+
+[ 2016-07-19T11:07:13+08:00 ] ::1 /cyl/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\cyl\Application\Home\Controller\IndexController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000664s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001096s ]
+ERR: 模板不存在:./Application/Home/View/Common/head.php
+
+[ 2016-07-19T11:07:42+08:00 ] ::1 /cyl/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\cyl\Application\Home\Controller\IndexController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000424s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011203s ]
+NOTIC: [8] Undefined index: account E:\wamp\www\cyl\Application\Runtime\Cache\Home\89aa31ee82b248714b700c2369a83d7b.php 第 40 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\cyl\Application\Runtime\Cache\Home\89aa31ee82b248714b700c2369a83d7b.php 第 68 行.
+NOTIC: [8] Undefined index: item_category E:\wamp\www\cyl\Application\Runtime\Cache\Home\89aa31ee82b248714b700c2369a83d7b.php 第 99 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\cyl\Application\Runtime\Cache\Home\89aa31ee82b248714b700c2369a83d7b.php 第 99 行.
+NOTIC: [8] Undefined index: cart_num E:\wamp\www\cyl\Application\Runtime\Cache\Home\89aa31ee82b248714b700c2369a83d7b.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012123s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.052535s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007866s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.013122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009572s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009390s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.013122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002529s ]
+
+[ 2016-07-19T11:07:42+08:00 ] ::1 /cyl/Public/Home/css/user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003801s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:07:42+08:00 ] ::1 /cyl/Public/Home/js/mySystem.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002473s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:07:42+08:00 ] ::1 /cyl/Public/Home/css/public/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:07:42+08:00 ] ::1 /cyl/Public/Home/css/public/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007426s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/css/jform.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003904s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000388s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index_10.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index_08.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001365s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index_06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/banner1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/pro1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/js/backtop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/js/slides.jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/pro2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/js/jquery.pin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/star2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003332s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/star1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003555s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/star3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001939s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/wine1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003803s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001736s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/wine2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003508s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series21.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002019s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series31.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001829s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series24.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series23.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/wine3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001237s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series32.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series33.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series34.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004290s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series35.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001469s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series36.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series37.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002128s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series38.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002708s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series40.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/wine4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001905s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series41.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004213s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series42.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001197s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/login/login_09.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001493s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001796s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/login/login_09-04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003538s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005522s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/login/login_16.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/login/login_18.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000188s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001738s ]
+
+[ 2016-07-19T11:07:43+08:00 ] ::1 /cyl/Public/Home/images/index/series22.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/js/mySystem.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/js/slides.jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/banner1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/pro1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/star1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/pro2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001758s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/star2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001349s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/wine1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001843s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001523s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002681s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series21.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/wine2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001571s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series22.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series23.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001444s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/star3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002432s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/wine3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series24.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series31.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series32.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series33.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series34.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001789s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series36.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series35.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002307s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series37.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series38.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/wine4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series40.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series41.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001302s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series42.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+
+[ 2016-07-19T11:07:44+08:00 ] ::1 /cyl/Public/Home/images/index/series6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001864s ]
+
+[ 2016-07-19T11:07:45+08:00 ] ::1 /cyl/Public/Home/js/backtop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:07:45+08:00 ] ::1 /cyl/Public/Home/js/jquery.pin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:07:45+08:00 ] ::1 /cyl/Public/Home/images/login/login_16.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+
+[ 2016-07-19T11:07:45+08:00 ] ::1 /cyl/Public/Home/images/login/login_09-04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+
+[ 2016-07-19T11:07:45+08:00 ] ::1 /cyl/Public/Home/images/login/login_09.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+
+[ 2016-07-19T11:07:45+08:00 ] ::1 /cyl/Public/Home/images/login/login_18.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001924s ]
+
+[ 2016-07-19T11:07:45+08:00 ] ::1 /cyl/Public/Home/js/backtop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002485s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [8] Undefined variable: data E:\wamp\www\cyl\Application\Home\Controller\IndexController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008684s ]
+NOTIC: [8] Undefined index: account E:\wamp\www\cyl\Application\Runtime\Cache\Home\89aa31ee82b248714b700c2369a83d7b.php 第 40 行.
+NOTIC: [8] Undefined variable: keyword E:\wamp\www\cyl\Application\Runtime\Cache\Home\89aa31ee82b248714b700c2369a83d7b.php 第 68 行.
+NOTIC: [8] Undefined index: item_category E:\wamp\www\cyl\Application\Runtime\Cache\Home\89aa31ee82b248714b700c2369a83d7b.php 第 99 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp\www\cyl\Application\Runtime\Cache\Home\89aa31ee82b248714b700c2369a83d7b.php 第 99 行.
+NOTIC: [8] Undefined index: cart_num E:\wamp\www\cyl\Application\Runtime\Cache\Home\89aa31ee82b248714b700c2369a83d7b.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020567s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006991s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007999s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001841s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001649s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/css/public/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/css/public/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/css/jform.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/css/user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002687s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/js/mySystem.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index_10.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index_08.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index_06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/banner1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005058s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/pro2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/pro1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/js/slides.jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003815s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/star1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/star2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001543s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/star3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/js/jquery.pin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/js/backtop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/series1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/wine1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/series2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002990s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004130s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/series3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/series4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001594s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/series5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002008s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/series21.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/wine2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/series6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002016s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/series23.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003468s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/series24.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001701s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/series22.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/wine3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003316s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/series31.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/series33.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/series34.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002091s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/series35.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/series37.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+
+[ 2016-07-19T11:09:10+08:00 ] ::1 /cyl/Public/Home/images/index/series38.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000920s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002813s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/wine4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002473s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/series40.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002538s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/series41.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/series42.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/login/login_09.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/series36.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+
+
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/login/login_16.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/login/login_18.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index_10.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001620s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/series32.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001313s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/js/mySystem.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/js/slides.jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/banner1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/pro2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/pro1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001821s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/star1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002019s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/star2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001615s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/wine1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004062s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/series1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/series3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003405s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/series2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/series4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003108s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/series5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002540s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/series6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+
+[ 2016-07-19T11:09:11+08:00 ] ::1 /cyl/Public/Home/images/index/star3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/series23.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/series24.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/wine3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001113s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/series31.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000211s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002998s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/series32.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000218s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/series33.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003482s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/series34.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006147s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/series35.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/wine2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/series36.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/series38.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/wine4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/series37.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001705s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/series40.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/series41.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/series22.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/series42.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/index/series21.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/js/backtop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/js/jquery.pin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/login/login_18.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/login/login_09-04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002887s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/login/login_16.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+
+[ 2016-07-19T11:09:12+08:00 ] ::1 /cyl/Public/Home/images/login/login_09.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002080s ]
+
+[ 2016-07-19T11:09:13+08:00 ] ::1 /cyl/Public/Home/js/backtop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:13+08:00 ] ::1 /cyl/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Login
+
+[ 2016-07-19T11:09:16+08:00 ] ::1 /cyl/Public/Home/css/public/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003746s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:16+08:00 ] ::1 /cyl/Public/Home/css/jform.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003101s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:16+08:00 ] ::1 /cyl/Public/Home/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009324s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:16+08:00 ] ::1 /cyl/Public/Home/css/user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009449s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:16+08:00 ] ::1 /cyl/Public/Home/css/public/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:16+08:00 ] ::1 /cyl/Public/Home/js/mySystem.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001948s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:16+08:00 ] ::1 /cyl/Public/Home/js/slides.jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:16+08:00 ] ::1 /cyl/Public/Home/js/backtop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:16+08:00 ] ::1 /cyl/Public/Home/js/jquery.pin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002507s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:16+08:00 ] ::1 /cyl/Public/Home/js/mySystem.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004714s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:16+08:00 ] ::1 /cyl/Public/Home/js/slides.jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:17+08:00 ] ::1 /cyl/Public/Home/js/backtop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002299s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:17+08:00 ] ::1 /cyl/Public/Home/js/jquery.pin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
+[ 2016-07-19T11:09:17+08:00 ] ::1 /cyl/Public/Home/js/backtop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\cyl\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 95 行.
+ERR: 无法加载控制器:Public
+
